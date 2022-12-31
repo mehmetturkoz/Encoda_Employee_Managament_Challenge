@@ -31,6 +31,4 @@ public class Company {
     @Column(name = "ADDRESS")
     private String address;
 
-    @OneToMany(mappedBy = "company")
-    private List<Employee> employees ;
 }
